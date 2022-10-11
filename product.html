@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <title>Melbourne Watch Gallery</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.php"
+                >Melbourne Watch Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Product Management</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header">
+      <img class="logo" src="images/logo.jpg" alt="" />
+      <h1>Melbourne Watch Gallery</h1>
+    </div>
+
+    <div class="main_container">
+      <div class="product_container">
+        <div>
+          <img
+            class="main_img"
+            src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-0-I-637982285245772309_74707549-5b97-4a0e-8ddd-ed87e5b3c1a3_540x540.jpg"
+            alt=""
+          />
+
+          <div class="thumbnail_container">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-0-I-637982285245772309_74707549-5b97-4a0e-8ddd-ed87e5b3c1a3_540x540.jpg"
+              alt=""
+              class="thumbnail_img"
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-1-I-637982285240615911_6c998f8c-9aee-43ba-8a59-7e593eb4de73_540x540.jpg"
+              alt=""
+              class="thumbnail_img"
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-7-I-637982285240615911_c2d39946-e442-44f5-9a23-f94c06b8832a_540x540.jpg"
+              alt=""
+              class="thumbnail_img"
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-6-I-637982285240772171_6d5506f7-9316-4f82-a281-92aca0ffe2f4_540x540.jpg"
+              alt=""
+              class="thumbnail_img"
+            />
+          </div>
+        </div>
+
+        <div>
+          <h2>
+            Apple Watch Ultra 49mm Titanium Case GPS + Cellular Ocean Band
+            (Yellow)
+          </h2>
+          <p class="font-italic">Model number: MNHG3ZP/A SKU: 608359</p>
+          <h4>$1299</h4>
+          <button class="btn btn-primary">Add to cart</button>
+          <h2>Product Overview</h2>
+          <p>
+            The most rugged and capable Apple Watch ever, designed for
+            exploration, adventure and endurance. With a 49 mm aerospace-grade
+            titanium case, extra-long battery life[1], specialised apps that
+            work with the advanced sensors, and a new customisable Action
+            button.
+          </p>
+        </div>
+      </div>
+
+      <div class="shopping_cart">
+        <h2>Shopping Cart</h2>
+        <div class="cart">
+          <div class="cart_item">
+            <div class="item-image">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/608359-Product-0-I-637982285245772309_74707549-5b97-4a0e-8ddd-ed87e5b3c1a3_540x540.jpg"
+                alt="Cart item image"
+                class="cart_item_img"
+              />
+            </div>
+
+            <div class="cart_item_tittle">
+              <div class="item-descriptive">
+                Apple Watch Ultra 49mm Titanium Case GPS + Cellular Ocean Band
+                (Yellow)
+              </div>
+              <div class="remove-button">
+                <button class="btn btn-secondary bnt-remove">Remove</button>
+              </div>
+            </div>
+            <div class="item-price">$1299</div>
+          </div>
+        </div>
+        <div class="cart_item">
+          <h2 class="total_lable">Total</h2>
+          <h2>$0</h2>
+        </div>
+
+        <button class="btn btn-success checkout">
+          Check out <span class="badge badge-secondary">0</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
